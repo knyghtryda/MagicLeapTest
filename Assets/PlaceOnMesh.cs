@@ -58,32 +58,35 @@ public class PlaceOnMesh : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        var hPosition = Hand.Center;
+        var hPosition = Hand.Index.Tip.Position;
+        var rayOrigin = Hand.Wrist.Center.Position;
+        var rayDirection = Hand.Index.PIP.Position;
         if (MLHands.IsStarted)
         {
-            MLHandKeyPose pose = KeyPose(MLHands.Left);
-            if (pose == MLHandKeyPose.OpenHandBack)
+            MLHandKeyPose pose = KeyPose(Hand);
+            if (pose == MLHandKeyPose.Pinch)
             {
                 //obj.SetActive(true);
                 obj.transform.position = hPosition;
+                obj.GetComponent<ActionStates>().deactivateSpider();
             }
 
-            if (Hand.GetKeyPoseUp(MLHandKeyPose.OpenHandBack))
+            if (Hand.GetKeyPoseDown(MLHandKeyPose.OpenHandBack))
             {
-                //obj.SetActive(false);
+                obj.GetComponent<ActionStates>().backUp();
             }
 
             if (pose == MLHandKeyPose.Finger)
             {
                 if (Hand.GetKeyPoseDown(MLHandKeyPose.Finger))
                 {
-                    lPosition = Hand.Index.Tip.Position;
-                    lDirection = Hand.Index.Tip.Position - Hand.Index.MCP.Position;
+                    lPosition = rayDirection;
+                    lDirection = rayDirection - rayOrigin;
                 }
                 else
                 {
-                    lPosition = Vector3.MoveTowards(lPosition, Hand.Index.Tip.Position, speed * Time.deltaTime);
-                    lDirection = Vector3.MoveTowards(lDirection, Hand.Index.Tip.Position - Hand.Index.MCP.Position, speed * Time.deltaTime);
+                    lPosition = Vector3.MoveTowards(lPosition, rayDirection, speed * Time.deltaTime);
+                    lDirection = Vector3.MoveTowards(lDirection, rayDirection - rayOrigin, speed * Time.deltaTime);
                 }
                 CastRay(lPosition, lDirection);
 

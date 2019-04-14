@@ -2,16 +2,16 @@
  "entries": [
   {
    "compression": 8,
-   "hash": "073858239502ddf0f4875a96df03a80a5106df53",
+   "hash": "2ac1c23cf48cefff52c2b138175237afda8d698b",
    "pkgpath": "Data/Managed/Metadata/global-metadata.dat",
-   "size": 6955388,
+   "size": 6975404,
    "src": "C:/Users/yanco/Documents/Unity Projects/MagicLeapTest/Temp/StagingArea/Data/Managed/Metadata/global-metadata.dat"
   },
   {
    "compression": 8,
-   "hash": "b29ee07678a7a32ba681ef297b3ab14a6f01b99e",
+   "hash": "dfb331f3d5cd91789c4ebd57b9afb433c917a290",
    "pkgpath": "bin/libil2cpp.so",
-   "size": 101967216,
+   "size": 102176288,
    "src": "C:/Users/yanco/Documents/Unity Projects/MagicLeapTest/Temp/StagingArea/Data/Native/libil2cpp.so",
    "xfrm_flags": {
     "signed": {
@@ -23,9 +23,9 @@
      "version": 3
     }
    },
-   "xfrm_hash": "1a26096f06a72f19f4979995c67c62963f76e72b",
+   "xfrm_hash": "a60f03128d120bc24c550a36511134e821a35ecb",
    "xfrm_path": "C:/Users/yanco/Documents/Unity Projects/MagicLeapTest/.out/.cache/debug_lumin_clang-3.8_aarch64/com.yancorp.handtracking-e069937a246dd0c2\\libil2cpp.so-3ff1534599ad6725",
-   "xfrm_size": 101967974
+   "xfrm_size": 102177046
   },
   {
    "compression": 8,
@@ -165,23 +165,23 @@
   },
   {
    "compression": 8,
-   "hash": "3a5bbdc228f8db9a95d14556d5689de48e3c28ce",
+   "hash": "53abf4a4ebf44577e98c92dfa07fdcfe2572c200",
    "pkgpath": "Data/globalgamemanagers",
-   "size": 61976,
+   "size": 62904,
    "src": "C:/Users/yanco/Documents/Unity Projects/MagicLeapTest/Temp/StagingArea/Data/globalgamemanagers"
   },
   {
    "compression": 8,
-   "hash": "d1967db64643d99fb4240ec1b87a5b70c43fc0c2",
+   "hash": "00789bc3a1d3d9dcde83bfd06d7b9bc2f5f65f7f",
    "pkgpath": "Data/globalgamemanagers.assets",
    "size": 109708,
    "src": "C:/Users/yanco/Documents/Unity Projects/MagicLeapTest/Temp/StagingArea/Data/globalgamemanagers.assets"
   },
   {
    "compression": 8,
-   "hash": "5453d4da08078fb1a4f7e468ea656c9fef0ac1f2",
+   "hash": "1b38fad481ec553c1627d6dc984690a14c05f47a",
    "pkgpath": "Data/level0",
-   "size": 18060,
+   "size": 27876,
    "src": "C:/Users/yanco/Documents/Unity Projects/MagicLeapTest/Temp/StagingArea/Data/level0"
   },
   {
@@ -193,9 +193,9 @@
   },
   {
    "compression": 8,
-   "hash": "7590a738baf0e5c567bd28f49c539dd9c304896a",
+   "hash": "33bb399c9f3f631de0c6c8929557a265bf51aaf2",
    "pkgpath": "Data/resources.assets",
-   "size": 522696,
+   "size": 524624,
    "src": "C:/Users/yanco/Documents/Unity Projects/MagicLeapTest/Temp/StagingArea/Data/resources.assets"
   },
   {
@@ -207,24 +207,31 @@
   },
   {
    "compression": 8,
-   "hash": "a9f71557a569a5b36623057dc8320edf5db39baf",
+   "hash": "a535ffe85b9e2e6857a233be23a686471c3ffb3c",
    "pkgpath": "Data/resources.resource",
-   "size": 8544,
+   "size": 792192,
    "src": "C:/Users/yanco/Documents/Unity Projects/MagicLeapTest/Temp/StagingArea/Data/resources.resource"
   },
   {
    "compression": 8,
-   "hash": "e54b2202480bb25ed8e916e5335216ece02095f0",
+   "hash": "33ab6bf03b8157db6f8e910d2e7c3710353146da",
    "pkgpath": "Data/sharedassets0.assets",
-   "size": 2180488,
+   "size": 2749880,
    "src": "C:/Users/yanco/Documents/Unity Projects/MagicLeapTest/Temp/StagingArea/Data/sharedassets0.assets"
   },
   {
    "compression": 8,
-   "hash": "63e64d14583d27c20429745c46fd4918da2dbf88",
+   "hash": "79d13f7921efe7d340adca81737a6f17506dd3d1",
    "pkgpath": "Data/sharedassets0.assets.resS",
-   "size": 4194344,
+   "size": 5592472,
    "src": "C:/Users/yanco/Documents/Unity Projects/MagicLeapTest/Temp/StagingArea/Data/sharedassets0.assets.resS"
+  },
+  {
+   "compression": 8,
+   "hash": "eca4c48ec7d061ba28d953715b33f2ee43da1481",
+   "pkgpath": "Data/sharedassets0.resource",
+   "size": 42496,
+   "src": "C:/Users/yanco/Documents/Unity Projects/MagicLeapTest/Temp/StagingArea/Data/sharedassets0.resource"
   },
   {
    "compression": 8,
@@ -268,9 +275,9 @@
   },
   {
    "compression": 8,
-   "hash": "953b824af9af7ef9eece8a31554dd2f9a199ef1d",
+   "hash": "b136207d9d518b057e104ae4d222f22606b2b679",
    "pkgpath": "manifest.xml",
-   "size": 3453,
+   "size": 3441,
    "src": "C:\\Users\\yanco\\Documents\\Unity Projects\\MagicLeapTest\\Temp\\StagingArea\\manifest.xml",
    "xfrm_flags": {
     "manifest": {
@@ -278,9 +285,9 @@
      "developer_id": "a2e6dca5-2e76-4d94-bd14-bc6334fb267f"
     }
    },
-   "xfrm_hash": "05e2d433baf14435c6091d2b231c50050cc74970",
+   "xfrm_hash": "f7eda194d0b999e4250e9ab4c57f94808fa8478d",
    "xfrm_path": "C:/Users/yanco/Documents/Unity Projects/MagicLeapTest/.out/.cache/debug_lumin_clang-3.8_aarch64/com.yancorp.handtracking-e069937a246dd0c2\\manifest.xml-3d4e5bc841402678",
-   "xfrm_size": 1168
+   "xfrm_size": 1156
   }
  ],
  "pkgflags": {

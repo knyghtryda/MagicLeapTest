@@ -1,5 +1,5 @@
 <manifest xmlns:ml="magicleap" ml:developer_id="a2e6dca5-2e76-4d94-bd14-bc6334fb267f" ml:package="com.yancorp.handtracking" ml:version_code="1" ml:version_name="">
-  <application ml:min_api_level="4" ml:sdk_version="1.0" ml:visible_name="MagicLeapTest">
+  <application ml:min_api_level="4" ml:sdk_version="1.0" ml:visible_name="Therame">
     
     <uses-privilege ml:name="AddressBookRead" />
     
@@ -22,7 +22,7 @@
     <uses-privilege ml:name="WorldReconstruction" />
     
     <uses-privilege ml:name="ControllerPose" />
-    <component ml:binary_name="bin/Player.elf" ml:name=".fullscreen" ml:type="Fullscreen" ml:visible_name="MagicLeapTest">
+    <component ml:binary_name="bin/Player.elf" ml:name=".fullscreen" ml:type="Fullscreen" ml:visible_name="Therame">
       <icon ml:model_folder="Icon/Model" ml:portal_folder="Icon/Portal" />
     </component>
     <uses-privilege ml:name="LowLatencyLightwear" />
